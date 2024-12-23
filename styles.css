@@ -39,11 +39,31 @@ body {
 	font-size: var(--links-size);
 	a {
 		color: var(--links-color);
-		text-decoration: none;
 	}
 }
 
 .sub-headings {
 	color: var(--sub-heading-color);
 	font-size: var(--sub-heading-size);
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.floating-button {
+	position: fixed;
+	top: 80%;
+	right: 8%;
+	padding: 0.8rem 1.5rem;
+	background-color: var(--heading-color);
+	font-size: var(--links-size);
+	font-weight: 600;
+	color: var(--main-bg-color);
+	border-radius: 50px;
+	box-shadow: 5px 5px 20px 2px #656565;
 }
