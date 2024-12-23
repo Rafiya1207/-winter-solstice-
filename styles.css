@@ -8,8 +8,14 @@
 :root{
 	/* for global access */
 	--main-bg-color: #000126;
-	--default-font-color: #A2D2FF;
-	--heading-color: #FFAFCC
+	--default-font-color: #BDE0FE;
+	--heading-color: #FFAFCC;
+	--links-color:#A2D2FF;
+	--sub-heading-color:#FFC8DD;
+	--heading-size: 3.5rem;
+	--sub-heading-size: 2.5rem;
+	--links-size: 1.3rem;
+	--content-size: 1rem;
 }
 
 body {
@@ -20,7 +26,19 @@ body {
 }
 
 .main-header-heading {
-	font-size: 3rem;
+	font-size: var(--heading-size);
 	text-align: center;
 	color: var(--heading-color);
+}
+
+#main-nav {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: var(--links-size);
+	a {
+		color: var(--links-color);
+		text-decoration: none;
+	}
 }
