@@ -9,6 +9,7 @@
 	/* for global access */
 	--main-bg-color: #000126;
 	--default-font-color: #A2D2FF;
+	--heading-color: #FFAFCC
 }
 
 body {
@@ -16,4 +17,10 @@ body {
 	padding: 0;
 	background-color: var(--main-bg-color);
 	color: var(--default-font-color);
+}
+
+.main-header-heading {
+	font-size: 3rem;
+	text-align: center;
+	color: var(--heading-color);
 }
