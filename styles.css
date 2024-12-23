@@ -58,12 +58,17 @@ li{
 .floating-button {
 	position: fixed;
 	top: 80%;
-	right: 8%;
-	padding: 0.8rem 1.5rem;
+	right: 2%;
+	padding: 0.6em 1.3em;
 	background-color: var(--heading-color);
-	font-size: var(--links-size);
 	font-weight: 600;
 	color: var(--main-bg-color);
 	border-radius: 50px;
 	box-shadow: 5px 5px 20px 2px #656565;
+}
+
+.topic-section {
+	border: 2px solid #BDE0FE;
+	border-radius: 30px;
+	margin: 2rem 10rem;
 }
