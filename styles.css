@@ -23,11 +23,11 @@ body {
 	padding: 0;
 	background-color: var(--main-bg-color);
 	color: var(--default-font-color);
+	text-align: center;
 }
 
 .main-header-heading {
 	font-size: var(--heading-size);
-	text-align: center;
 	color: var(--heading-color);
 }
 
@@ -41,4 +41,9 @@ body {
 		color: var(--links-color);
 		text-decoration: none;
 	}
+}
+
+.sub-headings {
+	color: var(--sub-heading-color);
+	font-size: var(--sub-heading-size);
 }
