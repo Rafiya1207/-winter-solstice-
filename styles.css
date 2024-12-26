@@ -114,3 +114,8 @@ li {
 		color: var(--sub-heading-color);
 	}
 }
+
+strong {
+	font-weight: 600;
+	color: #90e0ef;
+}
