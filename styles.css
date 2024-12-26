@@ -7,11 +7,12 @@
 
 :root{
 	/* for global access */
-	--main-bg-color: #000126;
-	--default-font-color: #BDE0FE;
-	--heading-color: #FFAFCC;
-	--links-color:#A2D2FF;
-	--sub-heading-color:#FFC8DD;
+	--main-bg-color: #000139;
+	--heading-color: #90e0ef;
+	--sub-heading-color:#00A6FF;
+	--content-color: #caf0f8;
+	--links-color:#00b4d8;
+	--border-color:#caf0f8;
 	--heading-size: 3.5rem;
 	--sub-heading-size: 2.5rem;
 	--links-size: 1.3rem;
@@ -22,7 +23,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: var(--main-bg-color);
-	color: var(--default-font-color);
+	color: var(--content-color);
 	text-align: center;
 }
 
@@ -64,11 +65,19 @@ li{
 	font-weight: 600;
 	color: var(--main-bg-color);
 	border-radius: 50px;
-	box-shadow: 5px 5px 20px 2px #656565;
+	transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3), 0 6px 20px rgba(255, 255, 255, 0.2);
+}
+
+.floating-button:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3), 0 10px 25px rgba(255, 255, 255, 0.3); /* Stronger white glow on hover */
 }
 
 .topic-section {
-	border: 2px solid #BDE0FE;
+	border: 2px solid var(--border-color);
+	box-shadow: rgba(255, 255, 255, 0.15) 0px -20px 50px 0px;
 	border-radius: 30px;
 	margin: 2rem 10rem;
+	padding: 1rem 2rem;
 }
