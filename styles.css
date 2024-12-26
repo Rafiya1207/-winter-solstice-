@@ -81,7 +81,8 @@ li {
 
 .hemisphere,
 .celebration,
-.topic-section {
+.topic-section,
+.multi-topic-section li {
 	border: 2px solid var(--border-color);
 	border-radius: 30px;
 	padding: 1rem;
@@ -111,10 +112,11 @@ li {
 
 .multi-topic-section {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: repeat(2, 1fr);
 	gap: 10px;
 	h3{
 		color: var(--sub-heading-color);
+		font-weight: 400;
 	}
 }
 
