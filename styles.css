@@ -124,3 +124,7 @@ strong {
 	font-weight: 600;
 	color: #90e0ef;
 }
+
+.contact {
+	color: var(--links-color);
+}
