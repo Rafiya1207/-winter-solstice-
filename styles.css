@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-	font-family: "Handlee", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 :root {
@@ -31,6 +32,7 @@ body {
 .main-header-heading {
 	font-size: var(--heading-size);
 	color: var(--heading-color);
+	font-weight: 500;
 }
 
 #main-nav {
@@ -48,6 +50,7 @@ body {
 .sub-headings {
 	color: var(--sub-heading-color);
 	font-size: var(--sub-heading-size);
+	font-weight: 400;
 }
 
 a {
@@ -64,7 +67,7 @@ li {
 	right: 2%;
 	padding: 0.6em 1.3em;
 	background-color: var(--heading-color);
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--main-bg-color);
 	border-radius: 50px;
 	transition: all 0.3s ease;
